@@ -1,0 +1,31 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
+
+h1{
+   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: blueviolet;
+    padding: 20px;
+    
+
+ 
+}
+
+
+#weather-output{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+li{
+    list-style-type: none;
+    border : 5px solid blueviolet;
+ 
+    
+}
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+
+}

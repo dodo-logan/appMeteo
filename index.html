@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+
+    <title>Weather App</title>
+</head>
+
+<body>
+    <main>
+        <h1>Upcoming Weather</h1>
+        <div>
+            <label for="cities">Choose a city:</label>
+            <select id="cities">
+                <option value="liege">Liege</option>
+                <option value="antwerpen">Antwerpen</option>
+                <option value="brussels">Brussels</option>
+            </select>
+            <button onclick="getWeather()">Get Weather</button>
+
+        </div>
+        <ul id="weather-output">
+
+
+        </ul>
+    </main>
+    <template id="weather-template">
+
+    </template>
+</body>
+<script src="./script.js"></script>
+
+</html>
